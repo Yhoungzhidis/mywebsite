@@ -56,8 +56,8 @@ export default function Home() {
         <section className="container mx-auto px-4 md:px-6 py-12">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">About Me</h2>
           <p className="text-base md:text-lg mb-6">
-            I’m a Full Stack Developer specializing in building modern web applications using
-            Next.js for the frontend and Spring Boot with PostgreSQL for the backend. I’m
+            I&apos;m a Full Stack Developer specializing in building modern web applications using
+            Next.js for the frontend and Spring Boot with PostgreSQL for the backend. I&apos;m
             passionate about creating scalable, user-friendly solutions.
           </p>
           <div className="flex flex-wrap gap-2">
@@ -115,53 +115,53 @@ export default function Home() {
 
         {/* Contact Me Section */}
         <section id="contact" className="container mx-auto px-4 md:px-6 py-12">
-  <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Contact Me</h2>
-  <div className="max-w-lg mx-auto">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {/* Gmail */}
-      <a
-        href="mailto:mysterokhidjhnr020@gmail.com"
-        className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
-      >
-        <FaEnvelope className="w-6 h-6" />
-        <span>youremail@gmail.com</span>
-      </a>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Contact Me</h2>
+            <div className="max-w-lg mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Gmail */}
+                <a
+                  href="mailto:mysterokhidjhnr020@gmail.com"
+                  className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
+                >
+                  <FaEnvelope className="w-6 h-6" />
+                  <span>youremail@gmail.com</span>
+                </a>
 
-      {/* LinkedIn */}
-      <a
-        href="https://www.linkedin.com/in/yourprofile"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
-      >
-        <FaLinkedin className="w-6 h-6" />
-        <span>LinkedIn</span>
-      </a>
+                  {/* LinkedIn */}
+                  <a
+                    href="https://www.linkedin.com/in/yourprofile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
+                  >
+                    <FaLinkedin className="w-6 h-6" />
+                    <span>LinkedIn</span>
+              </a>
 
-      {/* Telegram */}
-      <a
-        href="https://t.me/yhoungzhidis"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
-      >
-        <FaTelegram className="w-6 h-6" />
-        <span>Telegram</span>
-      </a>
+              {/* Telegram */}
+              <a
+                href="https://t.me/yhoungzhidis"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
+              >
+                <FaTelegram className="w-6 h-6" />
+                <span>Telegram</span>
+              </a>
 
-      {/* GitHub */}
-      <a
-        href="https://github.com/yourusername"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
-      >
-        <FaGithub className="w-6 h-6" />
-        <span>GitHub</span>
-      </a>
-    </div>
-  </div>
-</section>
+              {/* GitHub */}
+              <a
+                href="https://github.com/yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center md:justify-start space-x-4 hover:text-blue-500 transition duration-300"
+              >
+                <FaGithub className="w-6 h-6" />
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </section>
 
         {/* Footer */}
         <footer className="bg-gray-200 dark:bg-gray-800 p-6 mt-12">
