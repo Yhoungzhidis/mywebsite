@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* Hero Section */}
         <section className="h-screen flex flex-col justify-center items-center text-center px-4">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">Hi, I'm [Your Name]</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">Hi, I&apos;m [Your Name]</h1>
           <p className="text-lg md:text-xl mb-6">
             Full Stack Developer | Next.js | Spring Boot | PostgreSQL
           </p>
